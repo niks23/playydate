@@ -1,0 +1,54 @@
+.classtab {
+    margin-bottom: 30px;
+    
+    .wrapper { 
+        width: 87.7%;
+        margin: 0 auto;
+    }
+
+    ul {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        border-bottom: solid 1px #dfdfdf;
+
+        li {
+            // padding-bottom: 10px;
+            font-family: 'American Typewriter';
+            font-size: 14px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.14;
+            letter-spacing: 0.19px;  
+            color: #000000;
+
+            &:first-child {
+              span {
+                background-color: #f16a23;                
+              }                
+            } 
+
+            span {
+                height: 4px;
+                margin-top: 10px;
+                display: block;
+                border-radius: 24px;                               
+            }
+
+        }
+    }    
+
+    p {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.08;
+        letter-spacing: 0.16px;
+        color: #211f1f;
+        text-align: left;
+    }
+}

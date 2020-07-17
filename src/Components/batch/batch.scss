@@ -1,0 +1,130 @@
+@media (max-width: 375px) { 
+    .wrapper {
+        width: 87.7%;
+        margin: 0 auto;
+    }
+
+    .batch {
+        padding: 25px 0;
+        // border-top: solid 1px #dfdfdf;
+        border-bottom: solid 1px #dfdfdf;
+        font-family: Montserrat;
+
+        .batch-name {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 17px;
+            align-items: center;
+            
+            h4 {
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 700;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.07;
+                letter-spacing: 0.19px;
+                text-align: center;
+                color: #000000;
+            }
+            
+            span {
+                width: 25px;
+                height: 25px;
+                display: block;
+                border-radius: 21.6px;
+                background-color: #f16a23;
+
+                img {
+                    width: 9px;
+                    height: 6px;
+                    object-fit: contain;
+                    margin-top: 35%;
+                    margin-left: 33%;
+                    display: block;
+                }
+            }
+        }
+
+        .batch-desc {
+            // opacity: 0;
+            // max-height: 0;
+            p {
+                font-family: Montserrat;
+                font-size: 12px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.83;
+                letter-spacing: 0.16px;
+                color: #211f1f;       
+                text-align: left;
+            }
+
+            span {
+                margin-top: 5px;
+                margin-bottom: 30px;
+                display: block;
+                font-family: Montserrat;
+                font-size: 12px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.25;
+                letter-spacing: 0.16px;
+                text-align: left;
+                color: #f16a23;
+            }
+
+            .batchday {
+                text-align: left;
+                .mwf-batch { margin-bottom: 15px; }
+                
+                h5 {
+                    margin-bottom: 20px;
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.25;
+                    letter-spacing: 0.16px;
+                    color: #211f1f;
+                }
+
+                ul { 
+                    display: flex;
+                    flex-wrap: wrap;
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font-size: 14px;
+                    font: inherit;
+                    vertical-align: baseline;    
+
+                    li {
+                        width: 48.4%;
+                        padding: 9px 0;
+                        text-align: center;
+                        margin-bottom: 10px;
+                        border-radius: 7px;
+                        font-family: Montserrat;
+                        font-size: 12px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.83;
+                        letter-spacing: normal;
+                        color: #f16a23;
+                        background-color: #f2f4f8;
+
+                        &:nth-of-type(odd) {
+                            margin-right: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

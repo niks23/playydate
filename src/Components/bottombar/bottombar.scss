@@ -1,0 +1,28 @@
+.bottombar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Montserrat;
+
+    span {
+        width: 50%;
+        padding: 20px 50px;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: 1px;
+
+        &:first-child {
+            color: #f16a23;
+            background-color: #fff;
+        }
+
+        &:last-child { 
+            background-color: #f16a23;
+            color: #fff;
+        }
+    }
+}
